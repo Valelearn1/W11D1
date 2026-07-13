@@ -4,7 +4,19 @@ const getTodos = async () => {
   const response = await fetch(BASE_URL);
 
   if (!response.ok) {
-    throw new Error("Errore nel recupero dei todo");
+    throw new Error("Error fetching todos");
+  }
+
+  const data = await response.json();
+
+  return data;
+};
+
+const getTodoById = async (id) => {
+  const response = await fetch(`${BASE_URL}/${id}`);
+
+  if (!response.ok) {
+    throw new Error("Error fetching todo");
   }
 
   const data = await response.json();
@@ -22,7 +34,7 @@ const createTodo = async (todoData) => {
   });
 
   if (!response.ok) {
-    throw new Error("Errore nella creazione del todo");
+    throw new Error("Error creating todo");
   }
 
   const data = await response.json();
@@ -40,7 +52,7 @@ const updateTodo = async (id, changes) => {
   });
 
   if (!response.ok) {
-    throw new Error("Errore nell'aggiornamento del todo");
+    throw new Error("Error updating todo");
   }
 
   const data = await response.json();
@@ -54,10 +66,10 @@ const deleteTodo = async (id) => {
   });
 
   if (!response.ok) {
-    throw new Error("Errore nell'eliminazione del todo");
+    throw new Error("Error deleting todo");
   }
 
   return response.json();
 };
 
-export { getTodos, createTodo, updateTodo, deleteTodo };
+export { getTodos, getTodoById, createTodo, updateTodo, deleteTodo };

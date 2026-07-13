@@ -2,21 +2,80 @@
   "todos": [
     {
       "id": 1,
-      "text": "Studiare React 19 e Vite",
+      "text": "Finalize Q4 Marketing Deck",
+      "category": "Work",
+      "tag": "Urgent",
+      "dueDate": "2026-07-13",
+      "dueTime": "14:00",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-07-10T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "text": "Client Feedback Sync",
+      "category": "Work",
+      "tag": "External",
+      "dueDate": "2026-07-13",
+      "dueTime": "16:30",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-07-10T09:05:00.000Z"
+    },
+    {
+      "id": 3,
+      "text": "Weekly Payroll Review",
+      "category": "Work",
+      "tag": null,
+      "dueDate": "2026-07-17",
+      "dueTime": null,
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-07-10T09:10:00.000Z"
+    },
+    {
+      "id": 5,
+      "text": "Inbox Zero",
+      "category": "Work",
+      "tag": null,
+      "dueDate": "2026-07-13",
+      "dueTime": null,
       "completed": true,
-      "createdAt": "2025-01-01T09:00:00.000Z"
+      "completedAt": "2026-07-13T09:00:00.000Z",
+      "createdAt": "2026-07-09T08:05:00.000Z"
     },
     {
-      "text": "Mostrare l'esercizio ToDoList",
+      "id": 6,
+      "text": "Evening Yoga Session",
+      "category": "Health",
+      "tag": null,
+      "dueDate": "2026-07-13",
+      "dueTime": "19:15",
       "completed": false,
-      "createdAt": "2026-07-13T11:15:57.967Z",
-      "id": 4
+      "completedAt": null,
+      "createdAt": "2026-07-10T09:15:00.000Z"
     },
     {
-      "text": "Nuova attività",
+      "id": 7,
+      "text": "Call Mom",
+      "category": "Personal",
+      "tag": null,
+      "dueDate": "2026-07-13",
+      "dueTime": "20:00",
       "completed": false,
-      "createdAt": "2026-07-13T12:08:07.626Z",
-      "id": 5
+      "completedAt": null,
+      "createdAt": "2026-07-10T09:20:00.000Z"
+    },
+    {
+      "text": "Finish coding",
+      "category": "Personal",
+      "tag": null,
+      "dueDate": "2026-07-13",
+      "dueTime": "18:15",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-07-13T14:59:01.629Z",
+      "id": 8
     }
   ]
 }
