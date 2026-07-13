@@ -1,5 +1,5 @@
 {
-  "name": "checkmate",
+  "name": "sunset-todo",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "server": "json-server --watch db.json --port 3001",
-    "start": "concurrently -n SERVER,CLIENT -c blue,green \"npm run server\" \"npm run dev\""
+    "start": "concurrently -n SERVER,CLIENT -c blue,green \"npm run server\" \"npm run dev\"",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -21,6 +22,7 @@
     "@tailwindcss/vite": "^4.3.2",
     "@vitejs/plugin-react": "^4.3.4",
     "concurrently": "^9.2.4",
+    "gh-pages": "^6.3.0",
     "json-server": "^0.17.4",
     "tailwindcss": "^4.3.2",
     "vite": "^6.0.0"

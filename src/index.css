@@ -33,12 +33,12 @@
   --color-on-tertiary-fixed-variant: #4d3d75;
 
   --color-dusk-surface: #1b110c;
-  --color-dusk-surface-bright: #433730;
-  --color-dusk-primary: #ff8c42;
-  --color-dusk-secondary: #e64a19;
-  --color-dusk-accent: #ffb74d;
-  --color-dusk-text: #fdfcfb;
-  --color-dusk-text-muted: #a89d97;
+  --color-dusk-surface-bright: #332822;
+  --color-dusk-primary: #ffb68d;
+  --color-dusk-secondary: #ffb3b1;
+  --color-dusk-accent: #deb7ff;
+  --color-dusk-text: #f2dfd5;
+  --color-dusk-text-muted: #a48c7f;
 
   --radius-DEFAULT: 1rem;
   --radius-lg: 2rem;
@@ -116,5 +116,5 @@ body {
 }
 html.dark body {
   background-color: #1b110c;
-  color: #fdfcfb;
+  color: #f2dfd5;
 }

@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:3001/todos";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+const BASE_URL = `${API_URL}/todos`;
 
 const getTodos = async () => {
   const response = await fetch(BASE_URL);
